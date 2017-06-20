@@ -493,7 +493,7 @@ final class Optimizations {
 	 * @return string Custom footer credits.
 	 */
 	public function footer_credits( $creds ) {
-		$creds = '[footer_copyright] Store Pro by <a href="https://seothemes.net" title="Seo Themes">Seo Themes</a>';
+		$creds = '[footer_copyright] Simplenet Pro Theme by <a href="https://simplenet.ro" title="Simplenet">Simplenet</a>';
 		return $creds;
 	}
 

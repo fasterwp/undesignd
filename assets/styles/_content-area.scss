@@ -124,25 +124,6 @@
 
 }
 
-.entry-content > p:first-of-type,
-.term-description p,
-.intro {
-	font-family: $font-display;
-	font-size: $font-size-heading;
-	font-style: italic;
-	margin-bottom: 2em;
-
-	@include breakpoint(sm) {
-		font-size: $font-size-heading * 1.146;
-	}
-
-	button,
-	.button {
-		font-size: $font-size-body * 0.82;
-		font-family: $font-body;
-	}
-}
-
 /* ## Entry Meta
 --------------------------------------------- */
 
