@@ -222,7 +222,7 @@ function sp_force_layouts() {
 
     } else {
         // Default layout.
-        return __genesis_return_content_sidebar();
+	   return;
 
     }
 
