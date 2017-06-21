@@ -413,6 +413,11 @@
 
 	.woocommerce-variation-price {
 		margin-bottom: 20px;
+		
+		p.price,
+		span.price {
+			padding: 10px 10px 0 0;
+		}
 	}
 
 	.woocommerce-product-details__short-description {
