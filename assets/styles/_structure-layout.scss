@@ -273,8 +273,12 @@
 		}
 	}
 
-	.entry-title {
+	.entry-title a {
 		font-size: $font-size-heading;
+	}
+	
+	h4 {
+		margin: 0 0 0.5em;
 	}
 }
 

@@ -28,7 +28,7 @@
 	font-weight: $font-weight-bolder;
 	color: $color-grey;
 	float: left;
-	height: 6rem;
+	height: 7rem;
 
 	@include breakpoint(sm) {
 		float: right;
@@ -63,8 +63,8 @@
 
 .after-entry,
 .author-box {
-	font-size: $font-size-body * 1.1;
-	margin-bottom: 5%;
+	background-color: $color-light;
+	padding: 5%;
 
 	@include breakpoint(sm) {
 		margin-bottom: 40px;
@@ -131,18 +131,18 @@
 		color: $color-heading;
 		text-decoration: none;
 		font-family: $font-heading;
-		font-size: $font-size-heading * 1.4;
+		font-size: $font-size-heading * 1.3;
 
 		&:hover {
 			color: $color-accent;
 		}
 
 		@include breakpoint(xs) {
-			font-size: $font-size-heading * 1.7;
+			font-size: $font-size-heading * 1.5;
 		}
 
 		@include breakpoint(md) {
-			font-size: $font-size-heading * 2;
+			font-size: $font-size-heading * 1.8;
 		}
 	}
 }

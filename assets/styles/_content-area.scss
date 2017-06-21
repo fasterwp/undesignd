@@ -53,6 +53,7 @@
 .comment-reply {
 	margin-left: 64px;
 	font-weight: $font-weight-bolder;
+	text-transform: uppercase;
 }
 
 .comment-respond label {
@@ -75,6 +76,17 @@
 	.comment-respond input[type="url"] {
 		width: 50%;
 	}
+}
+
+li.comment>article {
+    background-color: $color-light;
+    padding: 20px;
+    -moz-border-radius: 0 40px 40px 40px;
+    -webkit-border-radius: 0 40px 40px 40px;
+}
+
+.comment-time a {
+	color: lighten( $color-body, 20% );
 }
 
 /* ## Entries
@@ -128,9 +140,10 @@
 --------------------------------------------- */
 
 p.entry-meta {
-	font-size: 16px;
-	font-size: 1.6rem;
+	font-size: 14px;
+	font-size: 1.4rem;
 	margin-bottom: 0;
+	text-transform: uppercase;
 }
 
 .entry-header .entry-meta {
@@ -148,7 +161,7 @@ p.entry-meta {
 }
 
 .entry-author-name {
-	text-transform: capitalize;
+	text-transform: uppercase;
 }
 
 .entry-footer {
