@@ -72,7 +72,7 @@ gulp.task( 'sass', function () {
 
 		// Process sass
 		.pipe( sass( {
-			outputStyle: 'extended'
+			outputStyle: 'expanded'
 		} ) )
 
 		// Pixel fallbacks for rem units.
@@ -89,9 +89,9 @@ gulp.task( 'sass', function () {
 		] ) )
 
 		// Minify and optimize style.css.
-		.pipe(cssnano( {
-			safe: true // Use safe optimizations.
-		} ) )
+		//.pipe(cssnano( {
+		//	safe: true // Use safe optimizations.
+		//} ) )
 
 		// Write source map
 		.pipe( sourcemaps.write( sass_dest ) )
