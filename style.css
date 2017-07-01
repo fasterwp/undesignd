@@ -615,7 +615,7 @@ input[type="submit"]:disabled:hover,
 .more-link:disabled,
 .button:disabled:hover,
 .more-link:disabled:hover {
-  background-color: #f5f7f9;
+  background-color: #f5f5f5;
   border-width: 0;
   color: #27ae60;
   cursor: not-allowed;
@@ -869,7 +869,7 @@ th:first-child {
 }
 
 .pricing-table > div {
-  background-color: #f5f7f9;
+  background-color: #f5f5f5;
   text-align: center;
   border-radius: 1px;
   border: 1px solid rgba(0, 10, 20, 0.075);
@@ -888,7 +888,7 @@ th:first-child {
 .pricing-table > div.featured h5,
 .pricing-table > div.featured h6 {
   background-color: #2c3e50;
-  color: #f5f7f9;
+  color: #f5f5f5;
   padding: 1.2em 0;
 }
 
@@ -897,7 +897,7 @@ th:first-child {
 .pricing-table > div h4,
 .pricing-table > div h5,
 .pricing-table > div h6 {
-  background-color: #f5f7f9;
+  background-color: #f5f5f5;
   padding: 1em 0;
   border-radius: 1px 1px 0 0;
   margin: 0 auto;
@@ -914,7 +914,7 @@ th:first-child {
 }
 
 .pricing-table > div ul li:nth-of-type(even) {
-  background-color: #f5f7f9;
+  background-color: #f5f5f5;
 }
 
 .pricing-table > div ul li:last-of-type {
@@ -984,7 +984,7 @@ th:first-child {
 
 .after-entry,
 .author-box {
-  background-color: #f5f7f9;
+  background-color: #f5f5f5;
   padding: 5%;
 }
 
@@ -1336,7 +1336,7 @@ a.post-edit-link {
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #f5f7f9;
+  background-color: #f5f5f5;
   width: 100vw;
   height: 60px;
   height: 6rem;
@@ -1369,7 +1369,7 @@ a.post-edit-link {
 /* ## After Header
 --------------------------------------------- */
 .after-header {
-  background-color: #f5f7f9;
+  background-color: #f5f5f5;
   color: #a9abb5;
   font-size: 16px;
   font-weight: 600;
@@ -1569,7 +1569,7 @@ a.post-edit-link {
 }
 
 .genesis-nav-menu .mega-menu > .sub-menu {
-  color: #f5f7f9;
+  color: #f5f5f5;
   height: auto;
   width: -webkit-calc( 100% + 6em);
   width: calc( 100% + 6em);
@@ -1746,7 +1746,7 @@ a.post-edit-link {
   width: 100%;
   float: left;
   position: relative;
-  background-color: #f5f7f9;
+  background-color: #f5f5f5;
   box-shadow: inset 0 -1px 0 rgba(0, 10, 20, 0.075);
 }
 
@@ -1975,7 +1975,7 @@ a.post-edit-link {
 }
 
 li.comment > article {
-  background-color: #f5f7f9;
+  background-color: #f5f5f5;
   padding: 20px;
   -moz-border-radius: 0 40px 40px 40px;
   -webkit-border-radius: 0 40px 40px 40px;
@@ -2028,7 +2028,7 @@ li.comment > article {
 }
 
 .entry-content code {
-  background-color: #f5f7f9;
+  background-color: #f5f5f5;
   display: block;
   padding: 10px 20px;
   padding: 1rem 2rem;
@@ -2232,7 +2232,7 @@ p.entry-meta {
 --------------------------------------------- */
 .before-footer {
   border: 1px solid rgba(0, 10, 20, 0.075);
-  background-color: #f5f7f9;
+  background-color: #f5f5f5;
   clear: both;
 }
 
@@ -2315,7 +2315,7 @@ div[class*="front-page-"] {
 }
 
 div[class*="front-page-"]:nth-of-type(even) {
-  background-color: #f5f7f9;
+  background-color: #f5f5f5;
   border-bottom: 1px solid rgba(0, 10, 20, 0.075);
   border-top: 1px solid rgba(0, 10, 20, 0.075);
 }
@@ -2942,7 +2942,7 @@ div.lSSlideOuter .lSPager.lSpg > li:hover a {
 }
 
 .woocommerce div.product .woocommerce-tabs ul.tabs li {
-  background-color: #f5f7f9;
+  background-color: #f5f5f5;
   border-radius: 0;
   padding: 0;
 }
@@ -3067,7 +3067,7 @@ div.lSSlideOuter .lSPager.lSpg > li:hover a {
 .woocommerce-cart #payment div.form-row.place-order,
 .woocommerce-checkout #payment div.form-row.place-order,
 #add_payment_method #payment div.form-row.place-order {
-  background-color: #f5f7f9;
+  background-color: #f5f5f5;
 }
 
 .woocommerce-cart #payment ul.payment_methods,
@@ -3086,7 +3086,7 @@ div.lSSlideOuter .lSPager.lSpg > li:hover a {
 .woocommerce-cart #payment div.payment_box,
 .woocommerce-checkout #payment div.payment_box,
 #add_payment_method #payment div.payment_box {
-  background-color: #f5f7f9;
+  background-color: #f5f5f5;
   border: 1px solid rgba(0, 10, 20, 0.075);
   border-radius: 1px;
 }
@@ -3211,7 +3211,7 @@ div.lSSlideOuter .lSPager.lSpg > li:hover a {
 .woocommerce #respond input#submit.disabled,
 .woocommerce #respond input#submit:disabled,
 .woocommerce #respond input#submit:disabled[disabled] {
-  background-color: #f5f7f9;
+  background-color: #f5f5f5;
   color: #a9abb5;
   padding: 10px 20px;
   padding: 1rem 2rem;
@@ -3326,7 +3326,7 @@ div.lSSlideOuter .lSPager.lSpg > li:hover a {
 }
 
 .woocommerce-MyAccount-navigation ul li.is-active > a {
-  background-color: #f5f7f9;
+  background-color: #f5f5f5;
   padding: 0.618em 1.382em;
 }
 
@@ -3426,7 +3426,7 @@ div.lSSlideOuter .lSPager.lSpg > li:hover a {
 .woocommerce-message,
 .woocommerce-error,
 .woocommerce-info {
-  background-color: #f5f7f9;
+  background-color: #f5f5f5;
   border-top-color: #2ecc71;
 }
 
@@ -4270,7 +4270,7 @@ div.woocommerce-info.wc-memberships-restriction-message.wc-memberships-restricte
   }
   blockquote,
   pre {
-    border: 1px solid #f5f7f9;
+    border: 1px solid #f5f5f5;
     page-break-inside: avoid;
   }
   .content,
