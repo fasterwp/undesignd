@@ -66,6 +66,7 @@
 .before-footer {
 	border: $border;
 	background-color: $color-light;
+	text-align: center;
 	@include clearfix;
 
 	.wrap {

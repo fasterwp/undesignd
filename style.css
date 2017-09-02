@@ -2233,6 +2233,7 @@ p.entry-meta {
 .before-footer {
   border: 1px solid rgba(0, 10, 20, 0.075);
   background-color: #f5f5f5;
+  text-align: center;
   clear: both;
 }
 
@@ -2558,7 +2559,8 @@ div.lSSlideOuter .lSPager.lSpg > li:hover a {
   outline: 0;
 }
 
-.woocommerce span.onsale {
+.woocommerce span.onsale,
+.woocommerce span.soldout {
   position: absolute;
   background-color: #27ae60;
   border-radius: 1px;
@@ -2567,7 +2569,7 @@ div.lSSlideOuter .lSPager.lSpg > li:hover a {
   font-size: 11.2px;
   letter-spacing: 0.05em;
   height: 2em;
-  width: 4em;
+  width: 8em;
   min-height: 2em;
   min-width: 4em;
   line-height: 1.7;
@@ -2576,7 +2578,8 @@ div.lSSlideOuter .lSPager.lSpg > li:hover a {
   top: 2em;
 }
 
-.woocommerce span.onsale:after {
+.woocommerce span.onsale:after,
+.woocommerce span.soldout:after {
   content: " ";
   display: block;
   position: absolute;
@@ -2589,6 +2592,11 @@ div.lSSlideOuter .lSPager.lSpg > li:hover a {
   top: -webkit-calc(2em - 0.38em);
   top: calc(2em - 0.38em);
   border-radius: 1px;
+}
+
+.woocommerce span.soldout {
+  background: #f54d56 !important;
+  color: #ffffff;
 }
 
 .woocommerce .woocommerce-LoopProduct-link {
@@ -2810,6 +2818,12 @@ div.lSSlideOuter .lSPager.lSpg > li:hover a {
   left: auto;
 }
 
+.woocommerce ul.products li.product span.soldout {
+  top: 2em;
+  right: auto;
+  margin: -.5em -.5em 0 0;
+}
+
 .woocommerce ul.products li.product .star-rating {
   margin: 0 auto 0.5em;
   position: absolute;
@@ -2893,7 +2907,6 @@ div.lSSlideOuter .lSPager.lSpg > li:hover a {
   font-size: 20px;
   color: #27ae60;
   line-height: 1.5;
-  float: left;
 }
 
 .woocommerce div.product form.cart {
@@ -3587,6 +3600,10 @@ div.woocommerce-info.wc-memberships-restriction-message.wc-memberships-restricte
   font-size: 1.2rem;
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+
+.sku_wrapper {
+  display: block;
 }
 
 /* # Print Styles

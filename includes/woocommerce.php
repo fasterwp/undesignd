@@ -211,13 +211,9 @@ function sp_force_layouts() {
     if ( ! class_exists( 'WooCommerce' ) ) {
         return;
     }
-
-    if ( is_shop() || is_product_category() || is_product_tag() ) {
-        // Shop, category and tag pages.
-        return __genesis_return_sidebar_content();
-
-    } elseif ( is_singular( 'product' ) || is_cart() || is_checkout() || is_account_page() || is_front_page() ) {
-        // Single products, cart, checkout, front page.
+ 
+	if ( is_shop() || is_product_category() || is_product_tag() || is_singular( 'product' ) || is_cart() || is_checkout() || is_account_page() || is_front_page() ) {
+        // Shop, single products, cart, checkout, front page.
         return __genesis_return_full_width_content();
 
     } else {
@@ -228,3 +224,19 @@ function sp_force_layouts() {
 
 }
 add_filter( 'genesis_site_layout', 'sp_force_layouts' );
+
+//* Add sold out badge on archive pages
+add_action( 'woocommerce_before_shop_loop_item_title', function() {
+    global $product;
+    if ( !$product->is_in_stock() ) {
+        echo '<span class="soldout">Sold out</span>';
+    }
+});
+
+//* Add sold out badge on single product pages
+add_action( 'woocommerce_before_single_product_summary', function() {
+	global $product;
+	if ( !$product->is_in_stock() ) {
+	echo '<span class="soldout">Sold out</span>';
+	}
+});
