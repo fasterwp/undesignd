@@ -1079,6 +1079,10 @@ div.woocommerce-info.wc-memberships-restriction-message.wc-memberships-restricte
 	&.widget_price_filter .price_slider_amount .button {
 		font-size: 1.6rem;
 	}
+	.price_label {
+		display: inline-block;
+		float: left;
+	}
 }
 
 /* ### Woo Active Filters */

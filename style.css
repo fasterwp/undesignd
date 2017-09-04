@@ -3591,6 +3591,11 @@ div.woocommerce-info.wc-memberships-restriction-message.wc-memberships-restricte
   font-size: 1.6rem;
 }
 
+.woocommerce .price_label {
+  display: inline-block;
+  float: left;
+}
+
 /* ### Woo Active Filters */
 .woocommerce.widget_layered_nav_filters ul li {
   margin: 0 20px 20px 0;
