@@ -212,8 +212,12 @@ function sp_force_layouts() {
         return;
     }
  
-	if ( is_shop() || is_product_category() || is_product_tag() || is_singular( 'product' ) || is_cart() || is_checkout() || is_account_page() || is_front_page() ) {
-        // Shop, single products, cart, checkout, front page.
+	if ( is_shop() || is_product_category() || is_product_tag() ) {
+        // Shop, category and tag pages.
+        return __genesis_return_sidebar_content();
+
+    } elseif ( is_singular( 'product' ) || is_cart() || is_checkout() || is_account_page() || is_front_page() ) {
+        // Single products, cart, checkout, front page.
         return __genesis_return_full_width_content();
 
     } else {

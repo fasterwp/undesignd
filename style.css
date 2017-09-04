@@ -2212,19 +2212,21 @@ p.entry-meta {
 }
 
 .site-footer .back-to-top {
-  position: absolute;
+  position: fixed;
   right: 5%;
-  bottom: 0;
-  width: 2em;
-  height: 2em;
+  bottom: 5%;
+  width: 3em;
+  height: 3em;
   font-size: 12.8px;
-  line-height: 2em;
+  line-height: 3em;
   text-align: center;
-  border-radius: 1px;
-  color: #a9abb5;
+  background-color: #27ae60;
+  border-radius: 50%;
+  color: #ffffff;
 }
 
 .site-footer .back-to-top:hover {
+  background-color: #ffffff;
   color: #27ae60;
 }
 
@@ -4048,8 +4050,7 @@ div.woocommerce-info.wc-memberships-restriction-message.wc-memberships-restricte
   .site-footer .widget-area {
     margin-bottom: 0;
   }
-  .site-footer .back-to-top {
-    right: 0;
+  .site-footer .back-to-top {/*right: 0;*/
   }
   .before-footer .wrap {
     padding: 5em 0;
