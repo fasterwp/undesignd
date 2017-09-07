@@ -39,22 +39,24 @@
 	}
 
 	.back-to-top {
-		position: absolute;
+		position: fixed;
 		right: 5%;
-		bottom: 0;
-		width: 2em;
-		height: 2em;
+		bottom: 5%;
+		width: 3em;
+		height: 3em;
 		font-size: $font-size-body * 0.8;
-		line-height: 2em;
+		line-height: 3em;
 		text-align: center;
-		border-radius: $border-radius;
-		color: $color-grey;
+		background-color: $color-accent;
+		border-radius: 50%;
+		color: $color-white;
 
 		@include breakpoint(sm) {
-			right: 0;
+			/*right: 0;*/
 		}
 
 		&:hover {
+			background-color: $color-white;
 			color: $color-accent;
 		}
 	}
@@ -66,6 +68,7 @@
 .before-footer {
 	border: $border;
 	background-color: $color-light;
+	text-align: center;
 	@include clearfix;
 
 	.wrap {
