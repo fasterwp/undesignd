@@ -176,6 +176,7 @@
 		padding-bottom: 2em;
 		float: left;
 		clear: both;
+		z-index: 99;
 
 		@include breakpoint(xs) {
 			float: right;
