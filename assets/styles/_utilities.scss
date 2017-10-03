@@ -25,11 +25,11 @@ $breakpoints: (
 /* ### Colors */
 
 $color-light:   #f5f5f5;
-$color-dark:    #212121;
-$color-accent:  #27ae60;
-$color-heading: #2c3e50;
+$color-dark:    #000;
+$color-accent:  #b163a3;
+$color-heading: #212121;
 $color-body:    #333;
-$color-link:    #3498db;
+$color-link:    #b163a3;
 $color-white:   #ffffff;
 $color-success: #2ecc71;
 $color-error:   #f54d56;
@@ -41,7 +41,7 @@ $color-border:  black(0.075);
 
 $font-heading:        -apple-system, "San Francisco", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $font-body:           -apple-system, "San Francisco", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-$font-display:		  'Georgia', 'Times New Roman', serif;
+$font-display:		  'Playfair Display', 'Georgia', 'Times New Roman', serif;
 $font-size-heading:   20px;
 $font-size-body:      16px;
 $font-weight-normal:  400;

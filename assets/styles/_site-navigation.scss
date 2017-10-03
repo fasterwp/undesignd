@@ -429,7 +429,6 @@
 	@include breakpoint(sm) {
 		background-color: transparent;
 		border: none;
-		border-left: $border;
 		padding-left: 1em;
 	}
 

@@ -394,7 +394,7 @@ input[type="submit"],
 }
 
 a {
-  color: #3498db;
+  color: #b163a3;
   text-decoration: none;
 }
 
@@ -441,12 +441,12 @@ i {
 blockquote {
   margin: 40px;
   margin: 4rem;
-  font-family: "Georgia", "Times New Roman", serif;
+  font-family: "Playfair Display", "Georgia", "Times New Roman", serif;
 }
 
 blockquote::before {
   content: "\201C";
-  font-family: "Georgia", "Times New Roman", serif;
+  font-family: "Playfair Display", "Georgia", "Times New Roman", serif;
   display: block;
   font-size: 32px;
   height: 0;
@@ -466,7 +466,7 @@ h6 {
   font-family: -apple-system, "San Francisco", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 700;
   line-height: 1.382;
-  color: #2c3e50;
+  color: #212121;
   margin: 0 0 1em;
 }
 
@@ -547,7 +547,7 @@ input[type="reset"],
 input[type="submit"],
 .button,
 .more-link {
-  background: #27ae60;
+  background: #b163a3;
   border: 0;
   border-radius: 1px;
   color: #ffffff;
@@ -617,7 +617,7 @@ input[type="submit"]:disabled:hover,
 .more-link:disabled:hover {
   background-color: #f5f5f5;
   border-width: 0;
-  color: #27ae60;
+  color: #b163a3;
   cursor: not-allowed;
 }
 
@@ -747,7 +747,7 @@ th:first-child {
 }
 
 .more-link:hover {
-  background-color: #27ae60;
+  background-color: #b163a3;
 }
 
 .genesis-skip-link {
@@ -887,7 +887,7 @@ th:first-child {
 .pricing-table > div.featured h4,
 .pricing-table > div.featured h5,
 .pricing-table > div.featured h6 {
-  background-color: #2c3e50;
+  background-color: #212121;
   color: #f5f5f5;
   padding: 1.2em 0;
 }
@@ -1053,14 +1053,14 @@ th:first-child {
 }
 
 .entry-title a {
-  color: #2c3e50;
+  color: #212121;
   text-decoration: none;
   font-family: -apple-system, "San Francisco", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 26px;
 }
 
 .entry-title a:hover {
-  color: #27ae60;
+  color: #b163a3;
 }
 
 /* ## WordPress
@@ -1200,7 +1200,7 @@ a.post-edit-link {
 /* ## Before Header
 --------------------------------------------- */
 .before-header {
-  background-color: #2c3e50;
+  background-color: #212121;
   color: rgba(255, 255, 255, 0.9);
   display: block;
   font-size: 13.12px;
@@ -1276,8 +1276,8 @@ a.post-edit-link {
 }
 
 .site-title {
-  font-size: 24px;
-  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 40px;
+  font-family: "Playfair Display", "Georgia", "Times New Roman", serif;
   font-weight: 700;
   line-height: 1.382;
   padding-bottom: 0.2em;
@@ -1285,7 +1285,7 @@ a.post-edit-link {
 
 .site-title a {
   text-decoration: none;
-  color: #2c3e50;
+  color: #212121;
 }
 
 .site-description {
@@ -1690,7 +1690,7 @@ a.post-edit-link {
 }
 
 .genesis-nav-menu .mega-menu .menu-description span:hover {
-  color: #27ae60;
+  color: #b163a3;
   cursor: pointer;
   opacity: 1;
 }
@@ -1719,7 +1719,7 @@ a.post-edit-link {
 --------------------------------------------- */
 .nav-primary {
   width: 100%;
-  background-color: #212121;
+  background-color: #000;
   border-bottom: 1px solid rgba(0, 10, 20, 0.075);
   border-top: 1px solid rgba(0, 10, 20, 0.075);
 }
@@ -1823,7 +1823,7 @@ a.post-edit-link {
   display: block;
   position: absolute;
   height: 2px;
-  background: #2c3e50;
+  background: #212121;
   -webkit-transition: background 0s 0.25s;
   transition: background 0s 0.25s;
   width: 25px;
@@ -1838,7 +1838,7 @@ a.post-edit-link {
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: #2c3e50;
+  background-color: #212121;
   border-radius: 1px;
   content: " ";
 }
@@ -2105,7 +2105,7 @@ p.entry-meta {
 
 .archive-pagination a:hover,
 .archive-pagination .active a {
-  background-color: #27ae60;
+  background-color: #b163a3;
   color: #ffffff;
 }
 
@@ -2167,7 +2167,7 @@ p.entry-meta {
   font-size: 20px;
   font-family: -apple-system, "San Francisco", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   text-transform: uppercase;
-  color: #2c3e50;
+  color: #212121;
 }
 
 .widget_calendar table {
@@ -2220,14 +2220,14 @@ p.entry-meta {
   font-size: 12.8px;
   line-height: 3em;
   text-align: center;
-  background-color: #27ae60;
+  background-color: #b163a3;
   border-radius: 50%;
   color: #ffffff;
 }
 
 .site-footer .back-to-top:hover {
   background-color: #ffffff;
-  color: #27ae60;
+  color: #b163a3;
 }
 
 /* ## Before Footer
@@ -2274,7 +2274,7 @@ p.entry-meta {
 }
 
 .footer-widgets a:hover {
-  color: #27ae60;
+  color: #b163a3;
 }
 
 .footer-widgets .widget-area {
@@ -2469,7 +2469,7 @@ div.lSSlideOuter .lSAction a {
 }
 
 div.lSSlideOuter .lSAction a:hover {
-  color: #27ae60;
+  color: #b163a3;
 }
 
 div.lSSlideOuter .lSAction .lSPrev {
@@ -2494,13 +2494,13 @@ div.lSSlideOuter .lSPager.lSpg > li {
 }
 
 div.lSSlideOuter .lSPager.lSpg > li a {
-  background-color: #27ae60;
+  background-color: #b163a3;
   opacity: .382;
 }
 
 div.lSSlideOuter .lSPager.lSpg > li.active a,
 div.lSSlideOuter .lSPager.lSpg > li:hover a {
-  background-color: #27ae60;
+  background-color: #b163a3;
   opacity: 1;
 }
 
@@ -2564,7 +2564,7 @@ div.lSSlideOuter .lSPager.lSpg > li:hover a {
 .woocommerce span.onsale,
 .woocommerce span.soldout {
   position: absolute;
-  background-color: #27ae60;
+  background-color: #b163a3;
   border-radius: 1px;
   text-transform: uppercase;
   font-weight: 400;
@@ -2629,7 +2629,7 @@ div.lSSlideOuter .lSPager.lSpg > li:hover a {
   font-family: -apple-system, "San Francisco", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 8px;
   font-weight: 400;
-  background-color: #27ae60;
+  background-color: #b163a3;
   color: #ffffff;
   height: 14px;
   width: 14px;
@@ -2714,6 +2714,7 @@ div.lSSlideOuter .lSPager.lSpg > li:hover a {
   padding-bottom: 2em;
   float: left;
   clear: both;
+  z-index: 99;
 }
 
 .woocommerce .woocommerce-ordering select {
@@ -2890,7 +2891,7 @@ div.lSSlideOuter .lSPager.lSpg > li:hover a {
 
 .woocommerce .woocommerce-pagination .page-numbers a:hover,
 .woocommerce .woocommerce-pagination .page-numbers .active a {
-  background-color: #27ae60;
+  background-color: #b163a3;
   color: #ffffff;
 }
 
@@ -2907,7 +2908,7 @@ div.lSSlideOuter .lSPager.lSpg > li:hover a {
 .woocommerce div.product span.price {
   font-family: -apple-system, "San Francisco", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 20px;
-  color: #27ae60;
+  color: #b163a3;
   line-height: 1.5;
 }
 
@@ -2975,7 +2976,7 @@ div.lSSlideOuter .lSPager.lSpg > li:hover a {
 }
 
 .woocommerce div.product .woocommerce-tabs ul.tabs li a:hover {
-  color: #27ae60;
+  color: #b163a3;
 }
 
 /* Two Sidebar Layouts */
@@ -3174,7 +3175,7 @@ div.lSSlideOuter .lSPager.lSpg > li:hover a {
 .woocommerce input.button[type="submit"],
 .woocommerce input[type="submit"].more-link,
 .woocommerce #respond input#submit {
-  background-color: #27ae60;
+  background-color: #b163a3;
   border: 0;
   border-radius: 1px;
   color: #ffffff;
@@ -3200,7 +3201,7 @@ div.lSSlideOuter .lSPager.lSpg > li:hover a {
 .woocommerce input[type="submit"].more-link:hover,
 .woocommerce #respond input#submit:hover {
   color: #ffffff;
-  background-color: #27ae60;
+  background-color: #b163a3;
   box-shadow: inset 0 0 0 99px rgba(255, 255, 255, 0.2);
 }
 
@@ -3240,7 +3241,7 @@ div.lSSlideOuter .lSPager.lSpg > li:hover a {
 .woocommerce input.button[type="submit"].alt,
 .woocommerce input[type="submit"].alt.more-link,
 .woocommerce #respond input#submit.alt {
-  background-color: #3498db;
+  background-color: #b163a3;
   font-size: 13.12px;
 }
 
@@ -3252,7 +3253,7 @@ div.lSSlideOuter .lSPager.lSpg > li:hover a {
 .woocommerce input.button[type="submit"].alt:hover,
 .woocommerce input[type="submit"].alt.more-link:hover,
 .woocommerce #respond input#submit.alt:hover {
-  background-color: #3498db;
+  background-color: #b163a3;
 }
 
 .woocommerce #reviews .comment .meta {
@@ -3388,7 +3389,7 @@ div.lSSlideOuter .lSPager.lSpg > li:hover a {
 }
 
 .woocommerce .woocommerce-breadcrumb a:hover {
-  color: #27ae60;
+  color: #b163a3;
 }
 
 /* ### WooCommerce Reviews */
@@ -3576,7 +3577,7 @@ div.woocommerce-info.wc-memberships-restriction-message.wc-memberships-restricte
 .woocommerce .widget_layered_nav ul li.chosen a::before,
 .woocommerce .widget_layered_nav_filters ul li a::before,
 .woocommerce .widget_rating_filter ul li.chosen a::before {
-  color: #27ae60;
+  color: #b163a3;
 }
 
 .woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
@@ -3897,7 +3898,7 @@ div.woocommerce-info.wc-memberships-restriction-message.wc-memberships-restricte
   .genesis-nav-menu a:hover,
   .genesis-nav-menu .current-menu-item > a,
   .genesis-nav-menu .sub-menu .current-menu-item > a:hover {
-    color: #27ae60;
+    color: #b163a3;
   }
   .genesis-nav-menu > .menu-item-has-children:hover > a:after {
     opacity: 1;
@@ -3988,7 +3989,6 @@ div.woocommerce-info.wc-memberships-restriction-message.wc-memberships-restricte
   .nav-primary {
     background-color: transparent;
     border: none;
-    border-left: 1px solid rgba(0, 10, 20, 0.075);
     padding-left: 1em;
   }
   .js .nav-primary {
