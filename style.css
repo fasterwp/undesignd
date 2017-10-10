@@ -4173,7 +4173,7 @@ div.woocommerce-info.wc-memberships-restriction-message.wc-memberships-restricte
   }
   .content {
     float: right;
-    width: 72%;
+    width: 66%;
     margin: 0 auto;
   }
   .content-sidebar .content {
@@ -4185,7 +4185,7 @@ div.woocommerce-info.wc-memberships-restriction-message.wc-memberships-restricte
   }
   .sidebar-primary {
     float: right;
-    width: 22%;
+    width: 28%;
   }
   .sidebar-content .sidebar-primary {
     float: left;
