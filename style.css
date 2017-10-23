@@ -1,8 +1,8 @@
 /*!
-	Theme Name: MUJO
-	Theme URI: https://mujomagazine.com/
-	Description: This is the Mujo theme created for the Genesis Framework.
-	Author: Seo Themes & fasterWP.com
+	Theme Name: Undesigned
+	Theme URI: https://simplenet.ro/
+	Description: This is the Undesigned theme created for the Genesis Framework.
+	Author: Seo Themes & Simplenet
 	Author URI: http://www.seothemes.net/
 	Version: 0.1.2
 	Text Domain: store-pro
@@ -11,7 +11,7 @@
 	Template Version: 2.5.2
 	License: GPL-2.0+
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
-	GitHub Theme URI: https://github.com/fasterwp/mujo
+	GitHub Theme URI: https://github.com/fasterwp/simplenet-pro
 */
 /* # Table of Contents
 
@@ -463,7 +463,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Playfair Display", "Georgia", "Times New Roman", serif;
+  font-family: -apple-system, "San Francisco", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 700;
   line-height: 1.382;
   color: #212121;
@@ -743,7 +743,7 @@ th:first-child {
   margin-top: 2em;
   position: relative;
   font-style: normal;
-  background-color: #000;
+  background-color: #c4c6cd;
 }
 
 .more-link:hover {
@@ -1055,7 +1055,7 @@ th:first-child {
 .entry-title a {
   color: #212121;
   text-decoration: none;
-  font-family: "Playfair Display", "Georgia", "Times New Roman", serif;
+  font-family: -apple-system, "San Francisco", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 26px;
 }
 
@@ -2165,7 +2165,7 @@ p.entry-meta {
   display: inline-block;
   margin-bottom: 1em;
   font-size: 20px;
-  font-family: "Playfair Display", "Georgia", "Times New Roman", serif;
+  font-family: -apple-system, "San Francisco", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   text-transform: uppercase;
   color: #212121;
 }
@@ -2860,7 +2860,7 @@ div.lSSlideOuter .lSPager.lSpg > li:hover a {
 
 .woocommerce .woocommerce-pagination .page-numbers {
   border: none;
-  font-family: "Playfair Display", "Georgia", "Times New Roman", serif;
+  font-family: -apple-system, "San Francisco", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 15px;
   font-size: 1.5rem;
 }
@@ -2906,7 +2906,7 @@ div.lSSlideOuter .lSPager.lSpg > li:hover a {
 
 .woocommerce div.product p.price,
 .woocommerce div.product span.price {
-  font-family: "Playfair Display", "Georgia", "Times New Roman", serif;
+  font-family: -apple-system, "San Francisco", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 20px;
   color: #b163a3;
   line-height: 1.5;
@@ -3417,7 +3417,7 @@ div.lSSlideOuter .lSPager.lSpg > li:hover a {
 }
 
 .woocommerce .comment-reply-title {
-  font-family: "Playfair Display", "Georgia", "Times New Roman", serif;
+  font-family: -apple-system, "San Francisco", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   text-transform: uppercase;
   font-size: 20px;
   padding: 0 0 1em;

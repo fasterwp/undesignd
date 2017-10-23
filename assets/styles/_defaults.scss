@@ -397,7 +397,7 @@ th:first-child {
 	margin-top: 2em;
 	position: relative;
 	font-style: normal;
-	background-color: $color-dark;
+	background-color: lighten( $color-grey, 10% );
 	
 	&:hover {
 		background-color: $color-accent;
