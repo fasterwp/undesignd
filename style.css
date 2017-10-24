@@ -2212,7 +2212,7 @@ p.entry-meta {
 }
 
 .site-footer .back-to-top {
-  position: fixed;
+  position: relative;
   right: 5%;
   bottom: 5%;
   width: 3em;
@@ -4055,7 +4055,8 @@ div.woocommerce-info.wc-memberships-restriction-message.wc-memberships-restricte
   .site-footer .widget-area {
     margin-bottom: 0;
   }
-  .site-footer .back-to-top {/*right: 0;*/
+  .site-footer .back-to-top {
+    right: 0;
   }
   .before-footer .wrap {
     padding: 5em 0;

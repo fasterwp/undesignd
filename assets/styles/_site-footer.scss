@@ -39,7 +39,7 @@
 	}
 
 	.back-to-top {
-		position: fixed;
+		position: relative;
 		right: 5%;
 		bottom: 5%;
 		width: 3em;
@@ -52,7 +52,7 @@
 		color: $color-white;
 
 		@include breakpoint(sm) {
-			/*right: 0;*/
+			right: 0;
 		}
 
 		&:hover {
