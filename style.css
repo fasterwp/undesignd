@@ -2179,6 +2179,25 @@ p.entry-meta {
   text-align: center;
 }
 
+/*  First sidebar widget has a different style, you can use for CTA
+--------------------------------------------- */
+.sidebar .widget-first {
+  padding: 20px;
+  color: #fff;
+}
+
+.sidebar .widget-first {
+  background-color: #000;
+}
+
+.sidebar .widget-first .button, .sidebar .widget-first .more-link {
+  background-color: #b163a3;
+}
+
+.widget-first .widget-title {
+  color: #ffffff;
+}
+
 /* # Site Footer
 ---------------------------------------------------------------------------------------------------- */
 /* ## Site Footer
@@ -2212,17 +2231,16 @@ p.entry-meta {
 }
 
 .site-footer .back-to-top {
-  position: relative;
+  position: absolute;
   right: 5%;
-  bottom: 5%;
-  width: 3em;
-  height: 3em;
+  bottom: 0;
+  width: 2em;
+  height: 2em;
   font-size: 12.8px;
-  line-height: 3em;
+  line-height: 2em;
   text-align: center;
-  background-color: #b163a3;
   border-radius: 50%;
-  color: #ffffff;
+  color: #a9abb5;
 }
 
 .site-footer .back-to-top:hover {

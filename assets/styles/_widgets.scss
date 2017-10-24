@@ -68,3 +68,23 @@
 		text-align: center;
 	}
 }
+
+/*  First sidebar widget has a different style, you can use for CTA
+--------------------------------------------- */
+
+.sidebar .widget-first {
+	padding: 20px;
+	color: #fff;
+}
+
+.sidebar .widget-first {
+	background-color: $color-dark;
+}
+
+.sidebar .widget-first .button {
+	background-color: $color-accent;
+}
+
+.widget-first .widget-title {
+	color: $color-white;
+}

@@ -39,17 +39,16 @@
 	}
 
 	.back-to-top {
-		position: relative;
+		position: absolute;
 		right: 5%;
-		bottom: 5%;
-		width: 3em;
-		height: 3em;
+		bottom: 0;
+		width: 2em;
+		height: 2em;
 		font-size: $font-size-body * 0.8;
-		line-height: 3em;
+		line-height: 2em;
 		text-align: center;
-		background-color: $color-accent;
 		border-radius: 50%;
-		color: $color-white;
+		color: $color-grey;
 
 		@include breakpoint(sm) {
 			right: 0;
