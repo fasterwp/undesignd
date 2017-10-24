@@ -85,7 +85,7 @@ function sp_default_thumbnails() {
 add_action( 'after_switch_theme', 'sp_default_thumbnails' );
 
 // Set portfolio image size to override testimonial plugin.
-add_image_size( 'portfolio', 620, 380, true );
+add_image_size( 'portfolio', 720, 400, true );
 
 /**
  * Starter Pro Simple Social Icon Defaults.
