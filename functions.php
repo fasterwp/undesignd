@@ -124,7 +124,7 @@ register_default_headers( array(
 function sp_enqueue_scripts_styles() {
 
 	// Google fonts.
-	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Playfair+Display:400,700', array(), CHILD_THEME_VERSION );
+	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Playfair+Display:400,700|Open+Sans:400,700', array(), CHILD_THEME_VERSION );
 
 	// Line awesome.
 	wp_enqueue_style( 'line-awesome', 'https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css' );

@@ -371,7 +371,7 @@ body > div {
 body {
   background-color: #ffffff;
   color: #333;
-  font-family: -apple-system, "San Francisco", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.618;
@@ -464,7 +464,7 @@ h4,
 h5,
 h6 {
   font-family: "Playfair Display", "Georgia", "Times New Roman", serif;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.382;
   color: #212121;
   margin: 0 0 1em;
@@ -841,10 +841,13 @@ th:first-child {
 
 .featured-content .entry-title a {
   font-size: 20px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
 }
 
 .featured-content h4 {
   margin: 0 0 0.5em;
+  line-height: 1;
 }
 
 /* ## Pricing Table
@@ -1645,7 +1648,7 @@ a.post-edit-link {
 
 .genesis-nav-menu .mega-menu > .sub-menu .sub-menu li a {
   padding: 0;
-  font-family: -apple-system, "San Francisco", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .genesis-nav-menu .mega-menu .menu-description {
@@ -1665,7 +1668,7 @@ a.post-edit-link {
 }
 
 .genesis-nav-menu .mega-menu .menu-description p {
-  font-family: -apple-system, "San Francisco", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13.12px;
 }
 
@@ -2644,7 +2647,7 @@ div.lSSlideOuter .lSPager.lSpg > li:hover a {
 }
 
 .cart-count {
-  font-family: -apple-system, "San Francisco", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 8px;
   font-weight: 400;
   background-color: #b163a3;

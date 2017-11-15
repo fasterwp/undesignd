@@ -275,10 +275,13 @@
 
 	.entry-title a {
 		font-size: $font-size-heading;
+		font-family: $font-body;
+		font-weight: $font-weight-bold;
 	}
 	
 	h4 {
 		margin: 0 0 0.5em;
+		line-height: 1;
 	}
 }
 
